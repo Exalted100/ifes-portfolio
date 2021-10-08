@@ -1,0 +1,58 @@
+.firstdiv-container {
+    display: flex;
+    flex: 3;
+    flex-wrap: wrap;
+    height: 100vh;
+}
+
+.firstdiv-container > div {
+    flex: 1;
+    justify-items: center;
+    padding-top: 40vh;
+}
+
+.nav-list {
+    list-style-type: none;
+    display: flex;
+    position: absolute;
+    width: 30%;
+    right: 0;
+    top: 0;
+    justify-content: space-around;
+    padding: 1rem 2rem;
+}
+
+.nav-list > li {
+    cursor: pointer;
+}
+
+.hello, .intro, .role {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.hello {
+    background-color: rgba(132, 206, 235, 0.97);
+}
+
+.intro {
+    background-color: #5AB8EB;
+}
+
+.role {
+    background-color: #5580E9;
+}
+
+.scroll {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-right: 4rem;
+    color: white;
+    background-color: black;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    padding: 1rem 2rem;
+    box-shadow: 3px 3px 10px #000;
+}

@@ -9,6 +9,33 @@
     flex: 1;
     justify-items: center;
     padding-top: 40vh;
+    min-width: 300px;
+}
+
+@media only screen and (min-width: 900px) {
+    .firstdiv-container > div {
+        padding-top: 40vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .firstdiv-container > div {
+        padding-top: 10rem;
+    }
+
+    .nav-container, .scroll {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .firstdiv-container > div {
+        padding-top: 6rem;
+    }
+
+    .nav-container, .scroll {
+        display: none;
+    }
 }
 
 .nav-list {
@@ -48,7 +75,8 @@
     position: absolute;
     bottom: 0;
     right: 0;
-    margin-right: 4rem;
+    margin-right: 2rem;
+    margin-bottom: 2rem;
     color: white;
     background-color: black;
     border-bottom-right-radius: 40px;

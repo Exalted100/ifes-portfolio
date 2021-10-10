@@ -4,7 +4,7 @@ import "./styles/firstDiv.css";
 const FirstDiv = () => {
     return (
         <>
-        <nav>
+        <nav className="nav-container">
             <ul className="nav-list">
                 <li>About</li>
                 <li>Skills</li>

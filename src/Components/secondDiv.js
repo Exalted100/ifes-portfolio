@@ -13,7 +13,7 @@ const SecondDiv = () => {
             <div>
                 <div className="superset">
                     <div className="subset"></div>
-                    <img className="ife-image" alt="Ifeoluwa" src="picture.png" />
+                    <img className="ife-image" alt="Ifeoluwa" src="ife-image.jpg" />
                 </div>
             </div>
         </div>

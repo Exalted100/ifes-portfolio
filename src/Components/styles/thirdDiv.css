@@ -1,0 +1,40 @@
+.third-div-container {
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    border: 2px solid rgba(85, 128, 233, 0.1);
+}
+
+.third-div-container > div {
+    flex: 0.5;
+    padding: 5rem;
+}
+
+h2 {
+    text-decoration: underline;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    letter-spacing: 0.3rem;
+}
+
+p {
+    line-height: 2.5rem;
+    font-size: 1.2rem;
+}
+
+.skill {
+    background-color: #5AB8EB;
+    padding: 0.3rem 1rem;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    margin: 0 auto;
+    font-size: 1rem;
+}
+
+.skill-container {
+    display: flex;
+    margin: 1.5rem 0;
+}

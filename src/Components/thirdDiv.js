@@ -1,8 +1,9 @@
 import React from "react";
+import "./styles/thirdDiv.css";
 
 const ThirdDiv = () => {
     return (
-        <div>
+        <div className="third-div-container">
             <div>
                 <h2>MY EXPERIENCE SO FAR</h2>
                 <p>At the start of my journey as a UI/UX designer, I interned with Zuri International, where  I designed an online donation application. I also worked with a team of designers, front end and back end developers to build an online examination app.</p>
@@ -10,14 +11,16 @@ const ThirdDiv = () => {
             </div>
             <div>
                 <h2>SKILLS</h2>
-                <div>
-                    <p>UI/UX</p>
-                    <p>Figma</p>
+                <div className="skill-container">
+                    <p className="skill">UI/UX</p>
+                    <p className="skill">Figma</p>
                 </div>
-                <div><p>User Research</p></div>
                 <div>
-                    <p>Usability testing</p>
-                    <p>Wireframing</p>
+                    <p className="skill">User Research</p>
+                </div>
+                <div className="skill-container">
+                    <p className="skill">Usability testing</p>
+                    <p className="skill">Wireframing</p>
                 </div>
             </div>
         </div>

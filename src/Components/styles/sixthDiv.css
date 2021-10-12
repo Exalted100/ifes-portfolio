@@ -1,0 +1,10 @@
+.sixth-div-container {
+    background-color: black;
+    color: white;
+    border: 2px solid rgba(85, 128, 233, 0.1);
+    padding: 5rem;
+}
+
+.contact {
+    text-align: left;
+}

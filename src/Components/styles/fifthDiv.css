@@ -22,3 +22,18 @@
     font-size: 1rem;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 700px) {
+    .fifth-div-container {
+        background-color: black;
+        color: white;
+        border: 2px solid rgba(85, 128, 233, 0.1);
+        padding: 1rem;
+    }
+    
+    .resume {
+        display: inline-block;
+        margin-right: 2rem;
+        font-size: 1.5rem;
+    }
+}

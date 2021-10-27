@@ -1,22 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
-import FirstDiv from './Components/firstDiv';
-import SecondDiv from './Components/secondDiv';
-import ThirdDiv from './Components/thirdDiv';
-import FourthDiv from './Components/fourthDiv';
-import FifthDiv from './Components/fifthDiv';
-import SixthDiv from './Components/sixthDiv';
+import Home from './Components/Home';
+import { BrowserRouter, Route } from "react-router-dom";
+import WorldCitizen from './Components/World-Citizen';
+import Examinar from './Components/Examinar';
+import Recreations from './Components/Recreations';
 
 function App() {
   return (
-    <>
-      <FirstDiv />
-      <SecondDiv />
-      <ThirdDiv />
-      <FourthDiv />
-      <FifthDiv />
-      <SixthDiv />
-    </>
+    <BrowserRouter>
+      <Route path="/" exact component={Home} />
+      <Route path="/world-citizen" component={WorldCitizen} />
+      <Route path="/examinar" component={Examinar} />
+      <Route path="recreations" component={Recreations} />
+    </BrowserRouter>
   );
 }
 

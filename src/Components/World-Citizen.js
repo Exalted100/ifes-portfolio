@@ -114,7 +114,7 @@ const WorldCitizen = () => {
             <h3>SUMMARY</h3>
             <p>Based on my research, I came up with  solutions that I believe will improve the overall user experience of the World Citizen app. My goal was to encourage more people to consider this process of donating, as well as network with several people across the continent.</p>
             <h3>MAJOR TAKEAWAY</h3>
-            <p>Taking into consideration that this was my first design vith very limited knowledge of design, I believed that the design needed certain improvements. After working on other apps,and learning about other basics of design, I recreated the World Citizen app. If you would love to see all the pages I designed for the app and a mockup of the design, please click on this link  https://www.figma.com/file/r5QWDjXtqg7wCfN5MgmqgV/Recreation-of-the-World-Citizen-App?node-id=54%3A428, or check out my behance page <a className="purple-text behance-link" href="https://www.behance.net/oguntuaifeoluw">here</a>.</p>
+            <p>Taking into consideration that this was my first design vith very limited knowledge of design, I believed that the design needed certain improvements. After working on other apps,and learning about other basics of design, I recreated the World Citizen app. If you would love to see all the pages I designed for the app and a mockup of the design, please <a className="purple-text behance-link" href="https://www.figma.com/file/r5QWDjXtqg7wCfN5MgmqgV/Recreation-of-the-World-Citizen-App?node-id=54%3A428">click here</a>, or check out my behance page <a className="purple-text behance-link" href="https://www.behance.net/oguntuaifeoluw">here</a>.</p>
         </div>
     )
 }

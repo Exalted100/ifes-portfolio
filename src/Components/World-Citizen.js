@@ -8,7 +8,9 @@ const WorldCitizen = () => {
             <Back />
             <h2>WORLD CITIZEN DONATION APP</h2>
             <p>During the course of my internship programme, we were required to design an application that would allow people to donate their clothes online, as well as provide information about places or people around them that need clothes.</p>
-            <img alt="project" src="" />
+            <div className="ordinary-image-container">
+                <img alt="project" src="First-Picture.png" />
+            </div>
             <div className="card-container">
                 <h4>My Role</h4>
                 <p className="card-para">Sole designer</p>
@@ -27,8 +29,12 @@ const WorldCitizen = () => {
             <h2>RESEARCH STAGE</h2>
             <h3>INTERVIEWS</h3>
             <p>In the first phase, interviews were carried out with five interviewees. User stories and personas were gathered for the purpose of direction, and a better understanding of users pain points. This led to the approach used in coming up with ideas to tackle the identified problems.</p>
-            <img alt="project" src="" />
-            <img alt="project" src="" />
+            <div className="ordinary-image-container">
+                <img alt="project" src="Empathy-Map.jpg" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="Pain-Points.jpg" />
+            </div>
             <h3>INTERVIEW FINDINGS</h3>
             <p>As a result of the interviews, I was able to note certain issues that might arise for users when using the World Citizen app:</p>
             <ul className="list-container">
@@ -58,27 +64,57 @@ const WorldCitizen = () => {
             <h3>USER FLOW AND USER JOURNEY MAP</h3>
             <p>After identifying the solutions that should be incorporated into the design, I used Miro for the user flow and user journey map, which gave me a bigger picture of how the screens should be arranged.</p>
             <p className="purple-text">Click to see the full picture.</p>
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <img alt="project" src="" />
+            <div className="recreation-images-container">
+                <img alt="project" src="User-Flow-1.jpg" />
+                <img alt="project" src="User-Flow-2.jpg" />
+                <img alt="project" src="User-Journey-Map-1.jpg" />
+                <img alt="project" src="User-Journey-Map-2.jpg" />
+            </div>
             <h3>PROTOTYPE</h3>
             <p>Lo-fi designs were first created, which was later developed into hi-fi designs. Below is the end product of the mobile design.</p>
-            <h2>Lo-Fi Prototype</h2>
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <h2>Hi-Fi Prototype</h2>
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <img alt="project" src="" />
-            <img alt="project" src="" />
+            <h2 className="fi-prototypes">Lo-Fi Prototype</h2>
+            <div className="recreation-images-container">
+                <img alt="project" src="Lofi-prototype-1.png" />
+                <img alt="project" src="Lofi-prototype-2.png" />
+                <img alt="project" src="Lofi-prototype-3.png" />
+                <img alt="project" src="Lofi-prototype-4.png" />
+            </div>
+            <h2 className="fi-prototypes">Hi-Fi Prototype</h2>
+            <div className="ordinary-image-container">
+                <img alt="project" src="Hifi-Proto-1.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="First-Picture.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="Hifi-Proto-3.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="Hifi-Proto-4.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="Hifi-Proto-5.png" />
+            </div>
+            <h2>REDESIGN OF THE APP</h2>
+            <div className="ordinary-image-container">
+                <img alt="project" src="World-Citizen-1.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="World-Citizen-2.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="World-Citizen-3.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="World-Citizen-4.png" />
+            </div>
+            <div className="ordinary-image-container">
+                <img alt="project" src="World-Citizen-5.png" />
+            </div>
             <h3>SUMMARY</h3>
             <p>Based on my research, I came up with  solutions that I believe will improve the overall user experience of the World Citizen app. My goal was to encourage more people to consider this process of donating, as well as network with several people across the continent.</p>
             <h3>MAJOR TAKEAWAY</h3>
-            <p>Taking into consideration that this was my first design vith very limited knowledge of design, I believe that there are certain improvements that can be made with this design. Over the months, I have worked on more apps and I’ve learnt a lot. I’m also currently working on redesigning the World Citizen app. If you would love to know how that looks, or probably have comments and would love to reach out to me, please contact me on any of my socials provided here </p>
+            <p>Taking into consideration that this was my first design vith very limited knowledge of design, I believed that the design needed certain improvements. After working on other apps,and learning about other basics of design, I recreated the World Citizen app. If you would love to see all the pages I designed for the app and a mockup of the design, please click on this link  https://www.figma.com/file/r5QWDjXtqg7wCfN5MgmqgV/Recreation-of-the-World-Citizen-App?node-id=54%3A428, or check out my behance page <a className="purple-text behance-link" href="https://www.behance.net/oguntuaifeoluw">here</a>.</p>
         </div>
     )
 }

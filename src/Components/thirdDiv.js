@@ -3,7 +3,7 @@ import "./styles/thirdDiv.css";
 
 const ThirdDiv = () => {
     return (
-        <div className="third-div-container">
+        <div id="skills" className="third-div-container">
             <div>
                 <h2>MY EXPERIENCE SO FAR</h2>
                 <p>At the start of my journey as a UI/UX designer, I interned with Zuri International, where  I designed an online donation application. I also worked with a team of designers, front end and back end developers to build an online examination app.</p>

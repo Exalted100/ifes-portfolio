@@ -1,0 +1,15 @@
+.back-container {
+    padding-bottom: 2rem;
+}
+
+.back-link {
+    color: white;
+    font-size: 1.1rem;
+    text-decoration-line: none;
+}
+
+@media only screen and (min-width: 900px) {
+    .back-container {
+        margin-top: -2rem;
+    }
+}

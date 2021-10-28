@@ -3,7 +3,7 @@ import "./styles/sixthDiv.css";
 
 const SixthDiv = () => {
     return (
-        <div className="sixth-div-container">
+        <div className="sixth-div-container" id="contact">
             <h2 className="contact">CONTACT ME</h2>
             <div>
                 <div className="contact-container">

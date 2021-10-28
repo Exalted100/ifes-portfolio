@@ -3,7 +3,7 @@ import "./styles/fifthDiv.css";
 
 const FifthDiv = () => {
     return (
-        <div className="fifth-div-container">
+        <div className="fifth-div-container" id="resume">
             <p className="resume">RESUME</p>
             <a className="resume-link" href="ife-resume.pdf" target="_blank" rel="noopener noreferrer">Download</a>
         </div>)

@@ -3,6 +3,7 @@
     flex: 3;
     flex-wrap: wrap;
     height: 100vh;
+    color: black;
 }
 
 .firstdiv-container > div {
@@ -10,6 +11,11 @@
     justify-items: center;
     padding-top: 40vh;
     min-width: 300px;
+}
+
+.nav-link {
+    color: black;
+    text-decoration-line: none;
 }
 
 @media only screen and (min-width: 900px) {
@@ -47,10 +53,12 @@
     top: 0;
     justify-content: space-around;
     padding: 1rem 2rem;
+    background-color: rgba(132, 206, 235, 0);
 }
 
 .nav-list > li {
     cursor: pointer;
+    background-color: rgba(132, 206, 235, 0);
 }
 
 .hello, .intro, .role {

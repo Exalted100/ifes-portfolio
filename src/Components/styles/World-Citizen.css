@@ -1,5 +1,7 @@
 .world-citizen-container {
     padding: 5rem;
+    color: white;
+    background-color: black;
 }
 
 .card-container {
@@ -44,8 +46,42 @@ h3 {
     font-size: 1.4rem;
 }
 
+.fi-prototypes {
+    margin-top: 3rem;
+}
+
+.recreation-images-container {
+    display: grid;
+    margin-top: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 5rem;
+}
+
+.behance-link {
+    text-decoration-line: none;
+}
+
+.ordinary-image-container {
+    width: 80%;
+    margin: 2rem auto;
+}
+
+.ordinary-image-container > img {
+    max-width: 100%;
+}
+
 @media only screen and (max-width: 700px) {
     .world-citizen-container {
         padding: 1rem;
+    }
+
+    .recreation-images-container {
+        display: block;
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .recreation-images-container > div {
+        margin-bottom: 3rem;
     }
 }

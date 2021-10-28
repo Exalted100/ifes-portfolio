@@ -6,11 +6,11 @@ const FirstDiv = () => {
         <>
         <nav className="nav-container">
             <ul className="nav-list">
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Resume</li>
-                <li>Contact</li>
+                <li><a className="nav-link" href="#about">About</a></li>
+                <li><a className="nav-link" href="#skills">Skills</a></li>
+                <li><a className="nav-link" href="#work">Work</a></li>
+                <li><a className="nav-link" href="#resume">Resume</a></li>
+                <li><a className="nav-link" href="#contact">Contact</a></li>
             </ul>
         </nav>
         <div className="firstdiv-container">

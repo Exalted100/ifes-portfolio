@@ -1,9 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&display=swap');
+
 .firstdiv-container {
     display: flex;
     flex: 3;
     flex-wrap: wrap;
     height: 100vh;
     color: black;
+    font-family: 'Bubblegum Sans', cursive;
 }
 
 .firstdiv-container > div {

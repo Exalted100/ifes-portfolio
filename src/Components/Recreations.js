@@ -7,7 +7,7 @@ const Recreations = () => {
         <div className="world-citizen-container">
             <Back />
             <h2>MY RECREATIONS</h2>
-            <p>In my spare time, I enjoy recreating fun and challenging designs found online. By doing this, I have learnt a lot more about glassmorphism, neumorphism, 3D designs, website UI, Mobile app UI, as well as how to combine colors for certain websites. Here are some of the designs I have recreated. <span className="purple-text">Click images for full view.</span></p>
+            <p>In my spare time, I enjoy recreating fun and challenging designs found online. By doing this, I have learnt a lot more about glassmorphism, neumorphism, 3D designs, website UI, Mobile app UI, as well as how to combine colors for certain websites. Here are some of the designs I have recreated.</p>
             <div className="recreation-images-container">
                 <div>
                     <img alt="project" src="Food-app.png" />
@@ -25,13 +25,13 @@ const Recreations = () => {
                     <img alt="project" src="Power-Up.png" />
                 </div>
                 <div>
-                    <img alt="project" src="" />
+                    <img alt="project" src="card.png" />
                 </div>
                 <div>
                     <img alt="project" src="Hotelo.png" />
                 </div>
                 <div>
-                    <img alt="project" src="" />
+                    <img alt="project" src="dribbble.png" />
                 </div>
             </div>
         </div>

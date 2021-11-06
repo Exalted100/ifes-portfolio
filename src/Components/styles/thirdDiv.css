@@ -13,7 +13,7 @@
         flex: 0.5;
     }
  
-    .skill {
+    /* .skill {
         background-color: #5AB8EB;
         padding: 0.3rem 1rem;
         border-radius: 20px;
@@ -27,6 +27,16 @@
     .skill-container {
         display: flex;
         margin: 1.5rem 0;
+    }
+
+    .skills-list {
+        margin-left: 4rem;
+    } */
+
+    .skills-list-container {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 4rem;
     }
 }
 
@@ -42,7 +52,7 @@
         margin-bottom: 2rem;
     }
     
-    .skill {
+    /* .skill {
         background-color: #5AB8EB;
         padding: 0.3rem 1rem;
         border-radius: 20px;
@@ -56,5 +66,10 @@
     .skill-container {
         display: flex;
         margin: 1.5rem 0;
-    }
+    } */
+}
+
+.skills-list-container > ul > li::marker {
+    color: rgba(136, 96, 208, 1);
+    font-size: 1.4rem;
 }

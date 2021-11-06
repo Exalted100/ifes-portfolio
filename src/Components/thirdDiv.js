@@ -11,6 +11,28 @@ const ThirdDiv = () => {
             </div>
             <div>
                 <h2>SKILLS</h2>
+                <div  className="skills-list-container">
+                    <ul>
+                        <li>UI/UX</li>
+                        <li>User Research</li>                    
+                        <li>User Personas</li>                    
+                        <li>User Flows</li>                    
+                        <li>User Journey Mapping</li>                    
+                        <li>Wireframing</li>                    
+                        <li>Prototyping</li>
+                    </ul>
+                    <ul>
+                        <li>Responsive Design</li>
+                        <li>Interactive Design</li>
+                        <li>Typography</li>
+                        <li>Figma</li>
+                        <li>Miro</li>
+                        <li>Invision</li>
+                    </ul>
+                </div>
+            </div>
+            {/* <div>
+                <h2>SKILLS</h2>
                 <div className="skill-container">
                     <p className="skill">UI/UX</p>
                     <p className="skill">Figma</p>
@@ -22,7 +44,7 @@ const ThirdDiv = () => {
                     <p className="skill">Usability testing</p>
                     <p className="skill">Wireframing</p>
                 </div>
-            </div>
+            </div> */}
         </div>
     );
 }

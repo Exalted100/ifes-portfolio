@@ -57,7 +57,7 @@ const Examinar = () => {
                 <img alt="project" src="Hifi-7-Examinrr.png" />
             </div>
             <h3>SUMMARY</h3>
-            <p>Working on this design was easier than the first because I was way more familiar with Figma. It was also exciting working with other designers. I was able to admire and learn from the creative thinking of others, as well as broaden my knowledge on the use of Figma. It also helped me with teamwork, and I’m genuinely grateful for that opportunity, as well as satisfied with the solutions we came up with for this design.</p>
+            <p>Working on this design was easier than the first because I was way more familiar with Figma. It was also exciting working with other designers. I was able to admire and learn from the creative thinking of others, as well as broaden my knowledge on the use of Figma. It also helped me with teamwork, and I’m genuinely grateful for that opportunity, as well as satisfied with the solutions we came up with for this design. To see all the pages created for this app, <a className="purple-text behance-link" href="https://www.figma.com/file/fwEZZuWlNs8GjP7uNtZWHg/Examinrr?node-id=2%3A2">click here</a>.</p>
         </div>
     )
 }

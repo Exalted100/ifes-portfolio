@@ -23,6 +23,10 @@
         line-height: 2.5rem;
         font-size: 1.2rem;
     }
+
+    li {
+        line-height: 2.5rem;
+    }
     
     .purple-text {
         color: #8860D0;
@@ -68,13 +72,21 @@
         text-decoration: underline;
         text-align: center;
         margin-bottom: 1.5rem;
-        letter-spacing: 0.3rem;
+        letter-spacing: 0.1rem;
         font-size: 1.2rem;
     }
     
     p {
         line-height: 2rem;
         font-size: 1rem;
+    }
+
+    li {
+        line-height: 2rem;
+    }
+
+    ul {
+        padding-left: 1rem;
     }
     
     .purple-text {

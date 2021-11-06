@@ -63,7 +63,6 @@ const WorldCitizen = () => {
             <p>This allows the users to track the pick up drivers assigned to them. For donors who need to know when a driver arrives or is on their way to drop off the clothes, this helps them to do so. This is also useful to the donating organizations in charge of the drivers, as it helps them keep track of the driver’s movements.</p>
             <h3>USER FLOW AND USER JOURNEY MAP</h3>
             <p>After identifying the solutions that should be incorporated into the design, I used Miro for the user flow and user journey map, which gave me a bigger picture of how the screens should be arranged.</p>
-            <p className="purple-text">Click to see the full picture.</p>
             <div className="recreation-images-container">
                 <img alt="project" src="User-Flow-1.jpg" />
                 <img alt="project" src="User-Flow-2.jpg" />

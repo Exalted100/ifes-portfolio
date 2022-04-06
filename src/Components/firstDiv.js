@@ -16,7 +16,7 @@ const FirstDiv = () => {
             <div className="firstdiv-container">
                 <div className="hello">HELLO!</div>
                 <div className="intro">I'M IFE</div>
-                <div className="role">A PRODUCT DESIGNER</div>
+                <div className="role">A UI/UX DESIGNER</div>
             </div>
             <p className="scroll">SCROLL TO VIEW</p>
         </>
